@@ -1,0 +1,40 @@
+.header {
+  background-color: #004175;
+  color: white;
+  box-sizing: border-box;
+  border-color: #89deef;
+  padding: 25px;
+  border-bottom: solid 5px #89deef;
+}
+body {style="font-family: Open Sans;"
+}
+.button1 {
+  background-color: #89deef;
+  border: none;
+  color: black;
+  padding: 4px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 1px 1px;
+  border-radius: 9px;
+}
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+    ;
+    font-family: Open Sans;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
